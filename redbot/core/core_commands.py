@@ -2938,7 +2938,7 @@ class Core(commands.commands._RuleDropper, commands.Cog, CoreLogic):
         Secrets are not shown.
 
         **Example:**
-            - `[p]set api list``
+            - `[p]set api list`
         """
 
         services: dict = await ctx.bot.get_shared_api_tokens()
